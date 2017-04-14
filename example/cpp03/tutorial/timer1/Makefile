@@ -1,6 +1,6 @@
 PROJ = timer
 
-SRCS = timer.c
+SRCS = timer.cpp
 
 LIBS = -lboost_timer -lboost_system
 

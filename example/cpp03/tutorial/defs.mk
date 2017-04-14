@@ -18,5 +18,6 @@ OBJDUMP = objdump
 BIN     = objcopy
 NM      = nm
 
-SRCSs =  $(SRCS:.c=.o)
-OBJS  =  $(SRCSs:.s=.o)
+SRCSc =  $(SRCS:.c=.o)
+SRCSx =  $(SRCSc:.cpp=.o)
+OBJS  =  $(SRCSx:.s=.o)
