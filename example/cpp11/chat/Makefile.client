@@ -1,8 +1,8 @@
-PROJ = chat_server
+PROJ = chat_client
 
-SRCS = chat_server.cpp
+SRCS = chat_client.cpp
 
-LIBS = -lboost_system
+LIBS = -lboost_system -pthread
 
 INCS = -I include
 
